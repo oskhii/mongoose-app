@@ -1,0 +1,23 @@
+{
+  "name": "mongoose-app",
+  "version": "1.0.0",
+  "description": "mongoose application",
+  "main": "players.js",
+  "scripts": {
+    "start": "node players.js"
+  },
+  "keywords": [
+    "mongoose",
+    "application"
+  ],
+  "author": "Oskar Hiismäki",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.0",
+    "ejs": "^3.1.6",
+    "express": "^4.17.3",
+    "express-session": "^1.17.2",
+    "mongodb": "^4.5.0",
+    "mongoose": "^6.3.1"
+  }
+}
